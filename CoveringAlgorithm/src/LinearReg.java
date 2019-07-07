@@ -7,7 +7,7 @@ public class LinearReg {
 
 	public static void main(String[] args) throws Exception {
 
-		FileReader reader = new FileReader("C:/Users/cst15053/Desktop/weatherN.arff"); // read the dataset file
+		FileReader reader = new FileReader("C:/Users/cst15053/Desktop/weatherN.arff"); // location of the arff file
 		Instances instance_train = new Instances(reader); //create an instance
 		BufferedReader fi = new BufferedReader(reader); //read the file and pass data to buffer
 		fi.close();
